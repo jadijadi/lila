@@ -30,3 +30,13 @@ $transform-direction: -1;
   direction: ltr;
   text-align: left;
 }
+
+#dasher_app .background #gallery {
+  right: -430px !important;
+}  
+
+@media (max-width: 650px) {
+  #dasher_app .background #gallery {
+    right: -100px !important;
+  }  
+}
